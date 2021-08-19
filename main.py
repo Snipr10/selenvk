@@ -30,4 +30,4 @@ if __name__ == '__main__':
             loop.run_until_complete(asyncio.wait_for(
                 bot_login.login_and_add_bots(), 30000))
         except Exception as e:
-            print(account)
+            print(f"can not add {account}")
